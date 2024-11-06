@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class hashMapProblem {
     public static void main(String[] args) {
-        HashMap hm=new HashMap<>();
+        HashMap<Integer,String> hm=new HashMap<>();
         hm.put(101, "news");
         hm.put(109, "args");
         hm.put(132, "Wow");
