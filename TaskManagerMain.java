@@ -1,13 +1,10 @@
 import java.util.Scanner;
 
 class Task{
-	private String description;
+	private final String description;
 	private boolean isCompleted;
 	Task(String description){
 		this.description=description;
-	}
-	String getDescription() {
-		return this.description;
 	}
 	boolean isComplete() {
 		return this.isCompleted;
@@ -79,18 +76,24 @@ public class TaskManagerMain {
 			int op=sc.nextInt();
 			sc.nextLine();
 			switch(op) {
-			case 1:System.out.println("Enter Your Task info:");
-			       String desc=sc.nextLine();
-			       tm.addTask(desc);break;
-			case 2:tm.listPendingTasks();
-			       System.out.println("Enter Task Number:");
-			       int index=sc.nextInt();
-			       tm.markTaskCompleted(index);break;
-			case 3:tm.listCompletedTasks();break;
-			case 4:tm.listPendingTasks();break;
-			case 5:tm.listAllTasks();break;
-			case 6:isExit=true;sc.close();break;
-			default:System.out.println("Invalid Input");break;
+			case 1 -> {
+                            System.out.println("Enter Your Task info:");
+                            String desc=sc.nextLine();
+                            tm.addTask(desc);
+                        }
+			case 2 -> {
+                            tm.listPendingTasks();
+                            System.out.println("Enter Task Number:");
+                            int index=sc.nextInt();
+                            tm.markTaskCompleted(index);
+                        }
+			case 3 -> tm.listCompletedTasks();
+			case 4 -> tm.listPendingTasks();
+			case 5 -> tm.listAllTasks();
+			case 6 -> {
+                            isExit=true;sc.close();
+                        }
+			default -> System.out.println("Invalid Input");
 			
 			}
 			

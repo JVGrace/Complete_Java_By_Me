@@ -1,0 +1,195 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PasswordGenerator",
+            "request": "launch",
+            "mainClass": "PasswordGenerator",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "TodoList",
+            "request": "launch",
+            "mainClass": "TodoList",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "CheckEvenOrOdd",
+            "request": "launch",
+            "mainClass": "CheckEvenOrOdd",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "Tesr",
+            "request": "launch",
+            "mainClass": "Tesr",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "clientServerExample",
+            "request": "launch",
+            "mainClass": "clientServerExample",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "readwriteExample",
+            "request": "launch",
+            "mainClass": "readwriteExample",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "streamExample",
+            "request": "launch",
+            "mainClass": "streamExample",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "employeedetailobject",
+            "request": "launch",
+            "mainClass": "employeedetailobject",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "predicateexample",
+            "request": "launch",
+            "mainClass": "predicateexample",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "treeSetExample",
+            "request": "launch",
+            "mainClass": "treeSetExample",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_LambdaExample",
+            "request": "launch",
+            "mainClass": "Assignment_LambdaExample",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListEqual",
+            "request": "launch",
+            "mainClass": "LinkedListEqual",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "RemoveDuplicates",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "student1233",
+            "request": "launch",
+            "mainClass": "student1233",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "BasicSite",
+            "request": "launch",
+            "mainClass": "BasicSite",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Employee",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "collectionExamples1",
+            "request": "launch",
+            "mainClass": "collectionExamples1",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "threadExampleWithCounter",
+            "request": "launch",
+            "mainClass": "threadExampleWithCounter",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "oldinputwayofJAVA",
+            "request": "launch",
+            "mainClass": "oldinputwayofJAVA",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "WowStaticWay",
+            "request": "launch",
+            "mainClass": "WowStaticWay",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "funtionalProgrammingProblems",
+            "request": "launch",
+            "mainClass": "funtionalProgrammingProblems",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "Details",
+            "request": "launch",
+            "mainClass": "Details",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "Wow",
+            "request": "launch",
+            "mainClass": "Wow",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${fileBasename}",
+            "projectName": "NewJava_8d38ce2b"
+        },
+        {
+            "type": "jdk",
+            "request": "launch",
+            "name": "Launch Java App"
+        }
+    ]
+}
